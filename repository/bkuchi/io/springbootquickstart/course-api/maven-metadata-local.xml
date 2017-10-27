@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>bkuchi.io.springbootquickstart</groupId>
+  <artifactId>course-api</artifactId>
+  <versioning>
+    <versions>
+      <version>0.0.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20170820235528</lastUpdated>
+  </versioning>
+</metadata>

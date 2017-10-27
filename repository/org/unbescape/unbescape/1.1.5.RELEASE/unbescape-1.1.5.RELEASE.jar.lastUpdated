@@ -1,0 +1,10 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sat Sep 16 10:33:45 CDT 2017
+https\://repo.spring.io/milestone/.error=Could not transfer artifact org.unbescape\:unbescape\:jar\:1.1.5.RELEASE from/to spring-milestones (https\://repo.spring.io/milestone)\: The operation was cancelled.
+https\://repo.spring.io/snapshot/.error=
+@default-sonatype-nexus-snapshots-https\://oss.sonatype.org/content/repositories/snapshots/.lastUpdated=1505576025272
+https\://repo.spring.io/snapshot/.lastUpdated=1505576007483
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1505576024794
+https\://oss.sonatype.org/content/repositories/snapshots/.error=Could not transfer artifact org.unbescape\:unbescape\:jar\:1.1.5.RELEASE from/to sonatype-nexus-snapshots (https\://oss.sonatype.org/content/repositories/snapshots)\: The operation was cancelled.
+@default-spring-milestones-https\://repo.spring.io/milestone/.lastUpdated=1505576023105
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.unbescape\:unbescape\:jar\:1.1.5.RELEASE from/to central (https\://repo.maven.apache.org/maven2)\: The operation was cancelled.

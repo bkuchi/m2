@@ -1,0 +1,8 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Fri Jul 28 01:56:24 CDT 2017
+bootiful-couchbase-1.0-SNAPSHOT-kubernetes.json>=
+bootiful-couchbase-1.0-SNAPSHOT.pom>=
+bootiful-couchbase-1.0-SNAPSHOT-kubernetes.yml>=
+bootiful-couchbase-1.0-SNAPSHOT-openshift.json>=
+bootiful-couchbase-1.0-SNAPSHOT-openshift.yml>=
+bootiful-couchbase-1.0-SNAPSHOT.jar>=

@@ -1,0 +1,14 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sat Sep 16 10:33:45 CDT 2017
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1505576024640
+@default-download-java-net-http\://download.java.net/maven/2/.lastUpdated=1505576025211
+https\://repo.spring.io/snapshot/.error=
+@default-jboss-public-repository-group-https\://repository.jboss.org/nexus/content/groups/public/.lastUpdated=1505576025200
+https\://repo.spring.io/snapshot/.lastUpdated=1505576006130
+http\://download.java.net/maven/2/.error=Could not transfer artifact org.jboss.narayana\:common\:jar\:5.6.4.Final from/to download-java-net (http\://download.java.net/maven/2/)\: The operation was cancelled.
+@default-jbossThirdParty-https\://repository.jboss.org/nexus/content/repositories/thirdparty-releases/.lastUpdated=1505576025188
+@default-spring-milestones-https\://repo.spring.io/milestone/.lastUpdated=1505576022936
+https\://repo.spring.io/milestone/.error=Could not transfer artifact org.jboss.narayana\:common\:jar\:5.6.4.Final from/to spring-milestones (https\://repo.spring.io/milestone)\: The operation was cancelled.
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.jboss.narayana\:common\:jar\:5.6.4.Final from/to central (https\://repo.maven.apache.org/maven2)\: The operation was cancelled.
+https\://repository.jboss.org/nexus/content/repositories/thirdparty-releases/.error=Could not transfer artifact org.jboss.narayana\:common\:jar\:5.6.4.Final from/to jbossThirdParty (https\://repository.jboss.org/nexus/content/repositories/thirdparty-releases/)\: The operation was cancelled.
+https\://repository.jboss.org/nexus/content/groups/public/.error=Could not transfer artifact org.jboss.narayana\:common\:jar\:5.6.4.Final from/to jboss-public-repository-group (https\://repository.jboss.org/nexus/content/groups/public/)\: The operation was cancelled.

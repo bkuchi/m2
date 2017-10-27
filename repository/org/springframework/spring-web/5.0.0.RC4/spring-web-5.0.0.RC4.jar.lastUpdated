@@ -1,0 +1,12 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Sep 21 19:36:35 CDT 2017
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1505576024444
+http\://repo.spring.io/ext-release-local/.error=
+https\://dl.bintray.com/rabbitmq/maven-milestones/.error=
+https\://dl.bintray.com/rabbitmq/maven-milestones/.lastUpdated=1506040595266
+https\://repo.spring.io/snapshot/.error=
+http\://repo.spring.io/ext-release-local/.lastUpdated=1506040590132
+https\://repo.spring.io/snapshot/.lastUpdated=1505576005399
+@default-spring-milestones-https\://repo.spring.io/milestone/.lastUpdated=1505576022722
+https\://repo.spring.io/milestone/.error=Could not transfer artifact org.springframework\:spring-web\:jar\:5.0.0.RC4 from/to spring-milestones (https\://repo.spring.io/milestone)\: The operation was cancelled.
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.springframework\:spring-web\:jar\:5.0.0.RC4 from/to central (https\://repo.maven.apache.org/maven2)\: The operation was cancelled.

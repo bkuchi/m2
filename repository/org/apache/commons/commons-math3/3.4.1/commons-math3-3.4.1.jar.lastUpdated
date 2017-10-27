@@ -1,0 +1,12 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sat Sep 16 10:33:45 CDT 2017
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1505576024388
+https\://repo.spring.io/snapshot/.error=
+@default-maven-restlet-http\://maven.restlet.org/.lastUpdated=1505576025090
+https\://repo.spring.io/snapshot/.lastUpdated=1505576004366
+@default-releases.cloudera.com-https\://repository.cloudera.com/artifactory/libs-release/.lastUpdated=1505576025113
+@default-spring-milestones-https\://repo.spring.io/milestone/.lastUpdated=1505576022667
+https\://repository.cloudera.com/artifactory/libs-release/.error=Could not transfer artifact org.apache.commons\:commons-math3\:jar\:3.4.1 from/to releases.cloudera.com (https\://repository.cloudera.com/artifactory/libs-release)\: The operation was cancelled.
+https\://repo.spring.io/milestone/.error=Could not transfer artifact org.apache.commons\:commons-math3\:jar\:3.4.1 from/to spring-milestones (https\://repo.spring.io/milestone)\: The operation was cancelled.
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.apache.commons\:commons-math3\:jar\:3.4.1 from/to central (https\://repo.maven.apache.org/maven2)\: The operation was cancelled.
+http\://maven.restlet.org/.error=Could not transfer artifact org.apache.commons\:commons-math3\:jar\:3.4.1 from/to maven-restlet (http\://maven.restlet.org)\: The operation was cancelled.

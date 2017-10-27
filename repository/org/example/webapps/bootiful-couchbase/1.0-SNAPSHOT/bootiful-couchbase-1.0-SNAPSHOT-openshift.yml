@@ -1,0 +1,126 @@
+---
+apiVersion: v1
+kind: List
+items:
+- apiVersion: v1
+  kind: Service
+  metadata:
+    annotations:
+      fabric8.io/git-commit: 3f23f8d4bb7136ca4097c596be677011356b909a
+      prometheus.io/scrape: "true"
+      fabric8.io/git-branch: master
+      prometheus.io/port: "9779"
+    labels:
+      expose: "true"
+      provider: fabric8
+      project: bootiful-couchbase
+      version: 1.0-SNAPSHOT
+      group: org.example.webapps
+    name: bootiful-couchbase
+  spec:
+    ports:
+    - name: http
+      port: 80
+      protocol: TCP
+      targetPort: 8080
+    selector:
+      project: bootiful-couchbase
+      provider: fabric8
+      group: org.example.webapps
+    type: LoadBalancer
+- apiVersion: v1
+  kind: Service
+  metadata:
+    name: couchbase
+  spec:
+    ports:
+    - name: admin
+      port: 8091
+    - name: views
+      port: 8092
+    - name: query
+      port: 8093
+    - name: memcached
+      port: 11210
+    selector:
+      app: couchbase-rc-pod
+- apiVersion: v1
+  kind: DeploymentConfig
+  metadata:
+    annotations:
+      fabric8.io/git-commit: 3f23f8d4bb7136ca4097c596be677011356b909a
+      fabric8.io/metrics-path: dashboard/file/kubernetes-pods.json/?var-project=bootiful-couchbase&var-version=1.0-SNAPSHOT
+      fabric8.io/git-branch: master
+    labels:
+      provider: fabric8
+      project: bootiful-couchbase
+      version: 1.0-SNAPSHOT
+      group: org.example.webapps
+    name: bootiful-couchbase
+  spec:
+    replicas: 1
+    selector:
+      project: bootiful-couchbase
+      provider: fabric8
+      group: org.example.webapps
+    strategy:
+      rollingParams:
+        timeoutSeconds: 10800
+      type: Rolling
+    template:
+      metadata:
+        annotations:
+          fabric8.io/git-commit: 3f23f8d4bb7136ca4097c596be677011356b909a
+          fabric8.io/metrics-path: dashboard/file/kubernetes-pods.json/?var-project=bootiful-couchbase&var-version=1.0-SNAPSHOT
+          fabric8.io/git-branch: master
+        labels:
+          provider: fabric8
+          project: bootiful-couchbase
+          version: 1.0-SNAPSHOT
+          group: org.example.webapps
+      spec:
+        containers:
+        - env:
+          - name: KUBERNETES_NAMESPACE
+            valueFrom:
+              fieldRef:
+                fieldPath: metadata.namespace
+          image: arungupta/bootiful-couchbase
+          imagePullPolicy: IfNotPresent
+          name: spring-boot
+          ports:
+          - containerPort: 8080
+            name: http
+            protocol: TCP
+          - containerPort: 9779
+            name: prometheus
+            protocol: TCP
+          - containerPort: 8778
+            name: jolokia
+            protocol: TCP
+          securityContext:
+            privileged: false
+    triggers:
+    - type: ConfigChange
+- apiVersion: v1
+  kind: ReplicationController
+  metadata:
+    name: couchbase
+  spec:
+    replicas: 1
+    selector:
+      app: couchbase-rc-pod
+    template:
+      metadata:
+        labels:
+          app: couchbase-rc-pod
+      spec:
+        containers:
+        - image: arungupta/oreilly-couchbase
+          imagePullPolicy: IfNotPresent
+          name: couchbase
+          ports:
+          - containerPort: 8091
+          - containerPort: 8092
+          - containerPort: 8093
+          - containerPort: 11210

@@ -1,0 +1,8 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sat Sep 16 10:33:43 CDT 2017
+https\://repo.spring.io/snapshot/.error=
+https\://repo.spring.io/milestone/.error=
+https\://repo.spring.io/milestone/.lastUpdated=1505576021243
+https\://repo.spring.io/snapshot/.lastUpdated=1505575988818
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1505576023595
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.apache.activemq\:artemis-selector\:jar\:2.2.0 from/to central (https\://repo.maven.apache.org/maven2)\: The operation was cancelled.

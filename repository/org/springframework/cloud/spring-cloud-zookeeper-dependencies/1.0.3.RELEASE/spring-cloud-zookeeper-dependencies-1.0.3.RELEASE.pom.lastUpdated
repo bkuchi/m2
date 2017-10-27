@@ -1,0 +1,7 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Sep 21 12:38:03 CDT 2017
+http\://repo.spring.io/libs-snapshot-local/.error=Could not transfer artifact org.springframework.cloud\:spring-cloud-zookeeper-dependencies\:pom\:1.0.3.RELEASE from/to spring-snapshots (http\://repo.spring.io/libs-snapshot-local)\: Failed to transfer http\://repo.spring.io/libs-snapshot-local/org/springframework/cloud/spring-cloud-zookeeper-dependencies/1.0.3.RELEASE/spring-cloud-zookeeper-dependencies-1.0.3.RELEASE.pom. Error code 409, Conflict
+@default-spring-snapshots-http\://repo.spring.io/libs-snapshot-local/.lastUpdated=1506015482864
+http\://repo.spring.io/libs-milestone-local/.error=
+http\://repo.spring.io/libs-milestone-local/.lastUpdated=1506015483064
+http\://repo.spring.io/release/.lastUpdated=1506015483392

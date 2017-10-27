@@ -1,0 +1,12 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sat Sep 16 10:33:45 CDT 2017
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1505576024540
+@default-jvnet-nexus-releases-https\://maven.java.net/content/repositories/releases/.lastUpdated=1505576025171
+https\://repo.spring.io/snapshot/.error=
+https\://repo.spring.io/snapshot/.lastUpdated=1505576005506
+http\://repository.springsource.com/maven/bundles/external/.error=Could not transfer artifact org.glassfish.hk2\:hk2-runlevel\:jar\:2.5.0-b42 from/to spring-external (http\://repository.springsource.com/maven/bundles/external)\: The operation was cancelled.
+@default-spring-milestones-https\://repo.spring.io/milestone/.lastUpdated=1505576022815
+@default-spring-external-http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1505576025137
+https\://repo.spring.io/milestone/.error=Could not transfer artifact org.glassfish.hk2\:hk2-runlevel\:jar\:2.5.0-b42 from/to spring-milestones (https\://repo.spring.io/milestone)\: The operation was cancelled.
+https\://maven.java.net/content/repositories/releases/.error=Could not transfer artifact org.glassfish.hk2\:hk2-runlevel\:jar\:2.5.0-b42 from/to jvnet-nexus-releases (https\://maven.java.net/content/repositories/releases/)\: The operation was cancelled.
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.glassfish.hk2\:hk2-runlevel\:jar\:2.5.0-b42 from/to central (https\://repo.maven.apache.org/maven2)\: The operation was cancelled.

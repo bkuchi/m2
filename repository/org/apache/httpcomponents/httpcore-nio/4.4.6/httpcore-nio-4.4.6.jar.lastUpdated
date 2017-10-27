@@ -1,0 +1,8 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sat Sep 16 10:33:44 CDT 2017
+https\://repo.spring.io/snapshot/.error=
+https\://repo.spring.io/milestone/.error=Could not transfer artifact org.apache.httpcomponents\:httpcore-nio\:jar\:4.4.6 from/to spring-milestones (https\://repo.spring.io/milestone)\: The operation was cancelled.
+https\://repo.spring.io/snapshot/.lastUpdated=1505576002808
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1505576024117
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.apache.httpcomponents\:httpcore-nio\:jar\:4.4.6 from/to central (https\://repo.maven.apache.org/maven2)\: The operation was cancelled.
+@default-spring-milestones-https\://repo.spring.io/milestone/.lastUpdated=1505576022388

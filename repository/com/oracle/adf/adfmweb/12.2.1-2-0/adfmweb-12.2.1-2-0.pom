@@ -1,0 +1,9 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.oracle.adf</groupId>
+  <artifactId>adfmweb</artifactId>
+  <version>12.2.1-2-0</version>
+  <packaging>jar</packaging>
+  <name>adfmweb</name>
+  <description>Generated from Oracle JDeveloper</description>
+</project>

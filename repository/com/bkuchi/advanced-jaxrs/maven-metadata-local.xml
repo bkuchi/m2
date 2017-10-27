@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.bkuchi</groupId>
+  <artifactId>advanced-jaxrs</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20170806010533</lastUpdated>
+  </versioning>
+</metadata>

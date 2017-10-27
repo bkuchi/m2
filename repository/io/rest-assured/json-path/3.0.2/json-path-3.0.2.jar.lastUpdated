@@ -1,0 +1,10 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sat Sep 16 10:33:45 CDT 2017
+http\://maven.restlet.org/.error=Could not transfer artifact io.rest-assured\:json-path\:jar\:3.0.2 from/to maven-restlet (http\://maven.restlet.org)\: The operation was cancelled.
+@default-maven-restlet-http\://maven.restlet.org/.lastUpdated=1505576025095
+https\://repo.spring.io/milestone/.error=Could not transfer artifact io.rest-assured\:json-path\:jar\:3.0.2 from/to spring-milestones (https\://repo.spring.io/milestone)\: The operation was cancelled.
+https\://repo.spring.io/snapshot/.error=
+https\://repo.spring.io/snapshot/.lastUpdated=1505576010528
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1505576024974
+@default-spring-milestones-https\://repo.spring.io/milestone/.lastUpdated=1505576023283
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact io.rest-assured\:json-path\:jar\:3.0.2 from/to central (https\://repo.maven.apache.org/maven2)\: The operation was cancelled.

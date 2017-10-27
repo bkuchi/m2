@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>reactmann-java-archetype</artifactId>
+    <packaging>jar</packaging>
+    <name>Reactmann Java Archetype</name>
+    <description>A default archetype to create Reactmann verticles with.</description>
+    <url>https://github.com/blakepettersson/reactmann</url>
+
+    <parent>
+        <groupId>com.github.blakepettersson</groupId>
+        <artifactId>reactmann</artifactId>
+        <version>0.5-preview</version>
+    </parent>
+</project>

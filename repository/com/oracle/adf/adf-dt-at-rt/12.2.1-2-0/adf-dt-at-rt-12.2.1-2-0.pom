@@ -1,0 +1,9 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.oracle.adf</groupId>
+  <artifactId>adf-dt-at-rt</artifactId>
+  <version>12.2.1-2-0</version>
+  <packaging>jar</packaging>
+  <name>adf-dt-at-rt</name>
+  <description>Generated from Oracle JDeveloper</description>
+</project>
